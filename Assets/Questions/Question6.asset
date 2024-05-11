@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9c03c2e7499b844bd6a8edeb50b9ca, type: 3}
   m_Name: Question6
   m_EditorClassIdentifier: 
-  question: When was Taylor Swift born?
+  question: "What is the chemical symbol for Gold?\r"
   options:
-  - 12 Dec 1989
-  - 13 Dec 1989
-  - 12 Dec 1990
-  - 13 Dec 1990
-  correctAnswer: 1
+  - Au
+  - Ag
+  - Go
+  - Gd
+  correctAnswer: 0

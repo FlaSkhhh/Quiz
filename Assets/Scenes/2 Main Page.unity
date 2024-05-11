@@ -1033,8 +1033,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 793b56e8f4b742646bfcded704223c88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  quesTime: 15
-  ansTime: 5
+  quesTime: 7
+  ansTime: 2
   onQuestion: 1
   loadQues: 0
   clk: {fileID: 2131337871}
@@ -1223,6 +1223,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c9241d20ac33f7a44bb64cc9ea3915d7, type: 2}
   - {fileID: 11400000, guid: 0c3a097ae7f964f49aec1bcc25cd2df7, type: 2}
   - {fileID: 11400000, guid: 30619e5c514aaa1458e71a28e00dbc40, type: 2}
+  - {fileID: 11400000, guid: 5abdac72f2d1cc0449c956af67ed1c9c, type: 2}
+  - {fileID: 11400000, guid: f04bd25c7b0ec0f4ba9c6c86681ad81b, type: 2}
   questionText: {fileID: 1533730306}
   answers:
   - {fileID: 908075072}

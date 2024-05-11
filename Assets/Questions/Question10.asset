@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9c03c2e7499b844bd6a8edeb50b9ca, type: 3}
   m_Name: Question10
   m_EditorClassIdentifier: 
-  question: Who created Solar Flare move in Dragon Ball
+  question: "How many teeth does an adult human have?\r"
   options:
-  - Krillin
-  - Master Roshi
-  - Master Mutaito
-  - Tien
+  - 28
+  - 30
+  - 34
+  - 32
   correctAnswer: 3

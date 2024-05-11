@@ -75,7 +75,7 @@ public class MainQuiz : MonoBehaviour
         if (num == correctOption)
         {
             correctAud.Play();
-            questionText.text = "Bravo";
+            questionText.text = "Bravo! Correct Answer";
             Image img = answers[num].GetComponent<Image>();
             img.sprite = ornSprite;
             correctAnswers++;
@@ -84,7 +84,7 @@ public class MainQuiz : MonoBehaviour
         {
             wrongAud.time=0.6f;
             wrongAud.Play();
-            questionText.text = "Womp Womp";
+            questionText.text = "Womp Womp Wrong";
             Image img = answers[correctOption].GetComponent<Image>();
             img.sprite = ornSprite;
         }

@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9c03c2e7499b844bd6a8edeb50b9ca, type: 3}
   m_Name: Question17
   m_EditorClassIdentifier: 
-  question: What date was Survivor Series 2023?
+  question: 'Who was London''s famous serial killer?
+
+'
   options:
-  - 19 September
-  - 26 December
-  - 26 November
-  - 19 November
+  - Jack the Clipper
+  - "Jack the Slipper\r"
+  - Jack The Ripper
+  - "Jack the Tripper\r"
   correctAnswer: 2

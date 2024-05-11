@@ -14,9 +14,9 @@ public class Timer : MonoBehaviour
 
     public bool onQuestion = true;
     public bool loadQues = false;
-    bool clkTrig = false;
+    bool clkAudTrig = false;
 
-    public AudioSource clk;
+    public AudioSource clkAudio;
     public Image clock;
 
     void Start()
@@ -36,7 +36,7 @@ public class Timer : MonoBehaviour
     public void CancelTimer()
     {
         timeRemaining = 0;
-        clk.Stop();
+        clkAudio.Stop();
         if (!hardMode)
         {
             Invoke("NoTimeQuestion", 2f);
@@ -49,10 +49,10 @@ public class Timer : MonoBehaviour
         if (onQuestion)
         {
             fillAmount = timeRemaining / quesTime;
-            if (fillAmount < 0.3f && !clkTrig)
+            if (fillAmount < 0.3f && !clkAudTrig)
             {
-                clk.Play();
-                clkTrig = true;
+                clkAudio.Play();
+                clkAudTrig = true;
             }
         }
         else
@@ -64,8 +64,8 @@ public class Timer : MonoBehaviour
         {
             onQuestion = false;
             timeRemaining = ansTime;
-            clkTrig = false;
-            clk.Stop();
+            clkAudTrig = false;
+            clkAudio.Stop();
         }
         else if(timeRemaining<=0 && !onQuestion)
         {

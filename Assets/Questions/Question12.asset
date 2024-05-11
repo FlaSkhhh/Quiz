@@ -12,11 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9c03c2e7499b844bd6a8edeb50b9ca, type: 3}
   m_Name: Question12
   m_EditorClassIdentifier: 
-  question: How many generations from Jonathan Joestar is Jolyne Cujoh?(including
-    their own gen)
+  question: "What are the primary colors?\r"
   options:
-  - 4
-  - 6
-  - 5
-  - 7
+  - "Yellow, Orange, Green\r"
+  - Yellow, Blue, Red
+  - Orange, Purple, Green
+  - "Blue, Green, Yellow\r"
   correctAnswer: 1

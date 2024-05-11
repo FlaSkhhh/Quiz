@@ -30,7 +30,7 @@ public class EndScreen : MonoBehaviour
         {
             troll.SetActive(false);
             score.SetActive(true);
-            aud.Play();
+            //aud.Play();
         }
         else
         {
