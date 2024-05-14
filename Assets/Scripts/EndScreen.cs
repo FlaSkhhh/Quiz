@@ -8,7 +8,9 @@ public class EndScreen : MonoBehaviour
 {
     [SerializeField] GameObject troll; 
     [SerializeField] GameObject score;
+
     [SerializeField] Text enterNameText;
+
     [SerializeField] Animator anim;
     [SerializeField] AudioSource aud;
 
@@ -17,6 +19,11 @@ public class EndScreen : MonoBehaviour
     void Start()
     {
         aud.volume = Settings.volumeAmount;
+        if(Application.platform == RuntimePlatform.WebGLPlayer && Application.isMobilePlatform)
+        {
+            nameChanged = true;
+            enterNameText.text = "Unfortunately WebGl version doesn't support touchscreen keyboard so just press confirm.";
+        }
     }
     
     public void NameChange()
