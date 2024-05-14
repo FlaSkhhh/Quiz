@@ -1037,7 +1037,7 @@ MonoBehaviour:
   ansTime: 2
   onQuestion: 1
   loadQues: 0
-  clk: {fileID: 2131337871}
+  clkAudio: {fileID: 2131337871}
   clock: {fileID: 2131337869}
 --- !u!4 &816221592
 Transform:
